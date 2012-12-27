@@ -1,0 +1,20 @@
+{
+  "name": "beam",
+  "version": "1.0",
+  "manifest_version": 2,
+  "description": "A Prismatic backup extension",
+  "icons" : {
+    "128": "images/beam-128.png"
+  },
+  "browser_action": {
+    "default_icon": {
+      "19": "images/beam-19.png",
+      "38": "images/beam-38.png"
+    },
+	"default_popup": "popup.html",
+	"default_title": "beam"
+  },
+  "permissions": [
+    "http://api.getprismatic.com/"
+  ]
+}
