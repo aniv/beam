@@ -2,29 +2,33 @@
 <html>
   <head>
     <title>Beam</title>
+	<link href='http://fonts.googleapis.com/css?family=Duru+Sans' rel='stylesheet' type='text/css'>
     <style>
       body {
         min-width:357px;
         overflow-x:hidden;
+/*		background-color:#F2F2F2;*/
+		background-color:#ffffff;
       }
-
-      img {
-        margin:5px;
-        border:2px solid black;
-        vertical-align:middle;
-        width:75px;
-        height:75px;
-      }
+	  .card {
+		background-color:#ffffff;
+		border-color:#d9d9d9;
+		border-width:1px;
+		margin-left:3px;
+		margin-right:3px;
+		margin-top:2px;
+		margin-bottom:2px;
+		font-family: 'Duru Sans', sans-serif;
+	  }
     </style>
-
-    <!-- JavaScript and HTML must be in separate files for security. -->
-    <script src="popup.js"></script>
   </head>
   <body>
-	<div id="resp">
+	<div id="response" class="card">
 		<p>Saved articles: <span id='saved'></span></p>
 		<p>Recommended articles: <span id='recommended'></span></p>
 		<p>Shared articles: <span id='shared'></span></p>
 	</div>
+    <!-- JavaScript and HTML must be in separate files for security. -->
+    <script type="text/javascript" src="popup.js"></script>
   </body>
 </html>

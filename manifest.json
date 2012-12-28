@@ -15,6 +15,6 @@
 	"default_title": "beam"
   },
   "permissions": [
-    "http://api.getprismatic.com/"
+    "http://api.getprismatic.com/", "http://pscribe.aws.af.cm/"
   ]
 }
